@@ -16,6 +16,9 @@ AcWing算法提高课的Golang实现
 - 第二章 搜索
   - Flood Fill
   - 最短路模型
+    - [AcWing 1076. 迷宫问题](./chapter2/acwing1076.go)
+    - AcWing 188. 武士风度的牛
+    - AcWing 1100. 抓住那头牛
   - 多源BFS
     - [AcWing 173. 矩阵距离](./chapter2/acwing173.go)
   - 最小步数模型
