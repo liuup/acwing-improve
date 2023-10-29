@@ -6,6 +6,25 @@ AcWing算法提高课的Golang实现
   - 数字三角形模型
   - 最长上升子序列模型
   - 背包模型
+    - [AcWing 423. 采药](./chapter1/acwing423.go)
+    - AcWing 1024. 装箱问题
+    - AcWing 1022. 宠物小精灵之收服
+    - AcWing 278. 数字组合
+    - AcWing 1023. 买书
+    - AcWing 1021. 货币系统
+    - AcWing 532. 货币系统
+    - AcWing 6. 多重背包问题 III
+    - AcWing 1019. 庆功会
+    - AcWing 7. 混合背包问题
+    - AcWing 8. 二维费用的背包问题
+    - AcWing 1020. 潜水员
+    - AcWing 1013. 机器分配
+    - AcWing 426. 开心的金明
+    - AcWing 10. 有依赖的背包问题
+    - AcWing 11. 背包问题求方案数
+    - AcWing 12. 背包问题求具体方案
+    - AcWing 734. 能量石
+    - AcWing 487. 金明的预算方案
   - 状态机模型
   - 状态压缩DP
   - 区间DP
