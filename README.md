@@ -7,7 +7,7 @@ AcWing算法提高课的Golang实现
   - 最长上升子序列模型
   - 背包模型
     - [AcWing 423. 采药](./chapter1/acwing423.go)
-    - AcWing 1024. 装箱问题
+    - [AcWing 1024. 装箱问题](./chapter1/acwing1024.go)
     - AcWing 1022. 宠物小精灵之收服
     - AcWing 278. 数字组合
     - AcWing 1023. 买书
