@@ -10,7 +10,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1024. 装箱问题](./chapter1/acwing1024.go)
     - AcWing 1022. 宠物小精灵之收服
     - [AcWing 278. 数字组合](./chapter1/acwing278.go)
-    - AcWing 1023. 买书
+    - [AcWing 1023. 买书](./chapter1/acwing1023.go)
     - AcWing 1021. 货币系统
     - AcWing 532. 货币系统
     - AcWing 6. 多重背包问题 III
