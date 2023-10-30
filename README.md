@@ -5,7 +5,7 @@ AcWing算法提高课的Golang实现
 - 第一章 动态规划
   - 数字三角形模型
     - [AcWing 1015. 摘花生](./chapter1/acwing1015.go)
-    - AcWing 1018. 最低通行费
+    - [AcWing 1018. 最低通行费](./chapter1/acwing1018.go)
     - AcWing 1027. 方格取数
     - AcWing 275. 传纸条
   - 最长上升子序列模型
