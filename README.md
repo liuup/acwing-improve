@@ -8,7 +8,7 @@ AcWing算法提高课的Golang实现
   - 背包模型
     - [AcWing 423. 采药](./chapter1/acwing423.go)
     - [AcWing 1024. 装箱问题](./chapter1/acwing1024.go)
-    - AcWing 1022. 宠物小精灵之收服
+    - [AcWing 1022. 宠物小精灵之收服](./chapter1/acwing1022.go)
     - [AcWing 278. 数字组合](./chapter1/acwing278.go)
     - [AcWing 1023. 买书](./chapter1/acwing1023.go)
     - [AcWing 1021. 货币系统](./chapter1/acwing1021.go)
