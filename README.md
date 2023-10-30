@@ -4,7 +4,19 @@ AcWing算法提高课的Golang实现
 ## 目录
 - 第一章 动态规划
   - 数字三角形模型
+    - AcWing 1015. 摘花生
+    - AcWing 1018. 最低通行费
+    - AcWing 1027. 方格取数
+    - AcWing 275. 传纸条
   - 最长上升子序列模型
+    - [AcWing 1017. 怪盗基德的滑翔翼](./chapter1/acwing1017.go)
+    - AcWing 1014. 登山
+    - AcWing 482. 合唱队形
+    - AcWing 1012. 友好城市
+    - AcWing 1016. 最大上升子序列和
+    - AcWing 1010. 拦截导弹
+    - AcWing 187. 导弹防御系统
+    - AcWing 272. 最长公共上升子序列
   - 背包模型
     - [AcWing 423. 采药](./chapter1/acwing423.go)
     - [AcWing 1024. 装箱问题](./chapter1/acwing1024.go)
