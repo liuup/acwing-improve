@@ -47,7 +47,7 @@ AcWing算法提高课的Golang实现
 - 第二章 搜索
   - Flood Fill
     - [AcWing 1097. 池塘计数](./chapter2/acwing1097.go)
-    - AcWing 1098. 城堡问题
+    - [AcWing 1098. 城堡问题](./chapter2/acwing1098.go)
     - AcWing 1106. 山峰和山谷
   - 最短路模型
     - [AcWing 1076. 迷宫问题](./chapter2/acwing1076.go)
