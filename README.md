@@ -61,6 +61,9 @@ AcWing算法提高课的Golang实现
     - [AcWing 1112. 迷宫](./chapter2/acwing1112.go)
     - [AcWing 1113. 红与黑](./chapter2/acwing1113.go)
   - DFS之搜索顺序
+    - [AcWing 1116. 马走日](./chapter2/acwing1116.go)
+    - AcWing 1117. 单词接龙
+    - AcWing 1118. 分成互质组
   - DFS之剪枝与优化
   - 迭代加深
   - 双向DFS
