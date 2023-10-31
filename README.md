@@ -58,6 +58,8 @@ AcWing算法提高课的Golang实现
   - 双向广搜
   - A*
   - DFS之连通性模型
+    - [AcWing 1112. 迷宫](./chapter2/acwing1112.go)
+    - AcWing 1113. 红与黑
   - DFS之搜索顺序
   - DFS之剪枝与优化
   - 迭代加深
