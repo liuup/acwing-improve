@@ -53,6 +53,7 @@ AcWing算法提高课的Golang实现
   - 多源BFS
     - [AcWing 173. 矩阵距离](./chapter2/acwing173.go)
   - 最小步数模型
+    - [AcWing 1107. 魔板](./chapter2/acwing1107.go)
   - 双端队列广搜
   - 双向广搜
   - A*
