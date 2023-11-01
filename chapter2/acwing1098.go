@@ -33,15 +33,6 @@ func _debug() {
 	n = 2*n + 1
 	m = 2*m + 1
 
-	// 把边界处补为墙
-	for i := 0; i < n; i++ {
-		for j := 0; j < m; j++ {
-			if i == 0 || j == 0 || i == 2*n || j == 2*m {
-				grid[i][j] = 1
-			}
-		}
-	}
-
 	node := func(i, j int) int { return i*m + j }
 
 	us := InitUnion(n*m + 1)
