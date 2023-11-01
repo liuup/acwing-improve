@@ -86,7 +86,7 @@ AcWing算法提高课的Golang实现
 - 第三章 图论
   - 单源最短路的建图方式
     - [AcWing 1129. 热浪](./chapter3/acwing1129.go)
-    - AcWing 1128. 信使
+    - [AcWing 1128. 信使](./chapter3/acwing1128.go)
     - AcWing 1127. 香甜的黄油
     - AcWing 1126. 最小花费
     - AcWing 920. 最优乘车
