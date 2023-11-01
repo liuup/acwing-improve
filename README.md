@@ -85,8 +85,22 @@ AcWing算法提高课的Golang实现
     - AcWing 181. 回转游戏
 - 第三章 图论
   - 单源最短路的建图方式
+    - [AcWing 1129. 热浪](./chapter3/acwing1129.go)
+    - AcWing 1128. 信使
+    - AcWing 1127. 香甜的黄油
+    - AcWing 1126. 最小花费
+    - AcWing 920. 最优乘车
+    - AcWing 903. 昂贵的聘礼
   - 单源最短路的综合应用
+    - AcWing 1135. 新年好
+    - AcWing 340. 通信线路
+    - AcWing 342. 道路与航线
+    - AcWing 341. 最优贸易
   - 单源最短路的扩展应用
+    - AcWing 1137. 选择最佳线路
+    - AcWing 1131. 拯救大兵瑞恩
+    - AcWing 1134. 最短路计数
+    - AcWing 383. 观光
   - Floyd算法
   - 最小生成树
   - 最小生成树的扩展应用
