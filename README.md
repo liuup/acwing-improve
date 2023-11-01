@@ -58,8 +58,12 @@ AcWing算法提高课的Golang实现
   - 最小步数模型
     - [AcWing 1107. 魔板](./chapter2/acwing1107.go)
   - 双端队列广搜
+    - AcWing 175. 电路维修
   - 双向广搜
+    - AcWing 190. 字串变换
   - A*
+    - AcWing 178. 第K短路
+    - AcWing 179. 八数码
   - DFS之连通性模型
     - [AcWing 1112. 迷宫](./chapter2/acwing1112.go)
     - [AcWing 1113. 红与黑](./chapter2/acwing1113.go)
@@ -68,9 +72,17 @@ AcWing算法提高课的Golang实现
     - AcWing 1117. 单词接龙
     - AcWing 1118. 分成互质组
   - DFS之剪枝与优化
+    - AcWing 165. 小猫爬山
+    - AcWing 166. 数独
+    - AcWing 167. 木棒
+    - AcWing 168. 生日蛋糕
   - 迭代加深
+    - AcWing 170. 加成序列
   - 双向DFS
+    - AcWing 171. 送礼物
   - IDA*
+    - AcWing 180. 排书
+    - AcWing 181. 回转游戏
 - 第三章 图论
   - 单源最短路的建图方式
   - 单源最短路的综合应用
