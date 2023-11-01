@@ -100,7 +100,7 @@ AcWing算法提高课的Golang实现
   - 拓扑排序
 - 第四章 高级数据结构
   - 并查集
-    - AcWing 1250. 格子游戏
+    - [AcWing 1250. 格子游戏](./chapter4/acwing1250.go)
     - [AcWing 1252. 搭配购买](./chapter4/acwing1252.go)
     - AcWing 237. 程序自动分析
     - AcWing 239. 奇偶游戏
