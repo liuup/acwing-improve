@@ -51,7 +51,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1106. 山峰和山谷](./chapter2/acwing1106.go)
   - 最短路模型
     - [AcWing 1076. 迷宫问题](./chapter2/acwing1076.go)
-    - AcWing 188. 武士风度的牛
+    - [AcWing 188. 武士风度的牛](./chapter2/acwing188.go)
     - AcWing 1100. 抓住那头牛
   - 多源BFS
     - [AcWing 173. 矩阵距离](./chapter2/acwing173.go)
