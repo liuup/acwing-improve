@@ -14,7 +14,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 482. 合唱队形](./chapter1/acwing482.go)
     - [AcWing 1012. 友好城市](./chapter1/acwing1012.go)
     - [AcWing 1016. 最大上升子序列和](./chapter1/acwing1016.go)
-    - AcWing 1010. 拦截导弹
+    - [AcWing 1010. 拦截导弹](./chapter1/acwing1010.go)
     - AcWing 187. 导弹防御系统
     - AcWing 272. 最长公共上升子序列
   - 背包模型
