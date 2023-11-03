@@ -23,18 +23,25 @@ func _solve(in *bufio.Reader, out *bufio.Writer) {
 		return nums[i].start < nums[j].start
 	})
 
-	dp := make([]int, n)
-	for i := range dp {
-		dp[i] = 1
-	}
-	ans := -1
+	top := make([]int, n)
+	ans := 0
 	for i := 0; i < n; i++ {
-		for j := 0; j < i; j++ {
-			if nums[i].start > nums[j].start && nums[i].end > nums[j].end {
-				dp[i] = max_i(dp[i], dp[j]+1)
+		poker := nums[i].end
+
+		left, right := 0, ans
+		for left < right {
+			mid := (left + right) / 2
+			if top[mid] >= poker {
+				right = mid
+			} else {
+				left = mid + 1
 			}
 		}
-		ans = max_i(ans, dp[i])
+
+		if left == ans {
+			ans++
+		}
+		top[left] = poker
 	}
 
 	fmt.Fprintln(out, ans)
