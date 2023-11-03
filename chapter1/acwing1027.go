@@ -7,9 +7,13 @@ import (
 )
 
 func _debug() {
-	const eof = 0
+	in := bufio.NewScanner(os.Stdin)
+	_ = []interface{}{in}
+
 	out := bufio.NewWriter(os.Stdout)
 	defer out.Flush()
+
+	const eof = 0
 	_i, _n, buf := 0, 0, make([]byte, 1<<12) // 4KB
 	rc := func() byte {                      // 读一个字符
 		if _i == _n {
@@ -45,7 +49,6 @@ func _debug() {
 	}
 	_ = []interface{}{rc, ri}
 
-	// acwing 1018
 	n := ri()
 
 	nums := make([][]int, n+1)
@@ -58,7 +61,7 @@ func _debug() {
 		if a == 0 && b == 0 && c == 0 {
 			break
 		}
-		nums[a][b] += c
+		nums[a][b] = c
 	}
 
 	dp := make([][][]int, 2*n+10)
@@ -69,25 +72,49 @@ func _debug() {
 		}
 	}
 
+	// k == i+j
 	for k := 2; k <= 2*n; k++ {
-		for i := 1; i <= n; i++ {
-			for j := 1; j <= n; j++ {
+		for i := 1; i <= n; i++ { // i1
+			for j := 1; j <= n; j++ { // i2
 				if k-i <= 0 || k-i > n || k-j <= 0 || k-j > n {
 					continue
 				}
 
-				dp[k][i][j] = get(dp, i, j, k) + nums[i][k-i]
-				if i != j {
-					dp[k][i][j] += nums[j][k-j]
+				if i != j { // 两条路线没有重合
+					dp[k][i][j] = get(dp, k, i, j) + nums[j][k-j] + nums[i][k-i]
+				} else {
+					dp[k][i][j] = get(dp, k, i, j) + nums[j][k-j]
 				}
 			}
 		}
 	}
 
 	fmt.Fprintln(out, dp[2*n][n][n])
+
+	/*
+
+		f[i][j]表示所有从1，1走到i,j的最大值
+		f(i,j) = max(f[i-1, j] + w[i, j], f[i,j-1]+w[i,j])
+
+		走两次：
+		f(i1,j1,i2,j2)表示所有从(1,,1)(1,1)分别走到(i1,j1)(i2,j2)的路径最大值
+
+		如何处理同一个格子不能被重复选择
+
+		只有当i1+j1 == j2+j2 时，两条路径的格子才可能重合
+
+		f[k, i1, i2]表示所有从(1, 1)(1, 1)分别走到(i1, k-i1)(i2, k-i2)的路径的最大值
+
+		第一条 下；第二条 下	max(f(k-1, i1-1, i2-1))
+		第一条 下；第二条 右	max(f(k-1, i1-1, i2))
+		第一条 右；第二条 右	max(f(k-1, i1, i2))
+		第一条 右；第二条 下	max(f(k-1, i1, i2-1))
+
+	*/
+
 }
 
-func get(dp [][][]int, i, j, k int) int {
+func get(dp [][][]int, k, i, j int) int {
 	return max_i(max_i(dp[k-1][i-1][j-1], dp[k-1][i][j-1]), max_i(dp[k-1][i-1][j], dp[k-1][i][j]))
 }
 
@@ -96,6 +123,30 @@ func max_i(a, b int) int {
 		return b
 	}
 	return a
+}
+
+func min_i(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+func abs_i(a int) int {
+	if a < 0 {
+		return -a
+	}
+	return a
+}
+
+// 创建指定维度的二维数组
+// n: rows; m: cols
+func make2dimen(n, m int) (ans [][]int) {
+	ans = make([][]int, n)
+	for i := range ans {
+		ans[i] = make([]int, m)
+	}
+	return
 }
 
 func main() {
