@@ -7,7 +7,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1015. 摘花生](./chapter1/acwing1015.go)
     - [AcWing 1018. 最低通行费](./chapter1/acwing1018.go)
     - [AcWing 1027. 方格取数](./chapter1/acwing1027.go)
-    - AcWing 275. 传纸条
+    - [AcWing 275. 传纸条](./chapter1/acwing275.go)
   - 最长上升子序列模型
     - [AcWing 1017. 怪盗基德的滑翔翼](./chapter1/acwing1017.go)
     - AcWing 1014. 登山
