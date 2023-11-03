@@ -10,7 +10,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 275. 传纸条](./chapter1/acwing275.go)
   - 最长上升子序列模型
     - [AcWing 1017. 怪盗基德的滑翔翼](./chapter1/acwing1017.go)
-    - AcWing 1014. 登山
+    - [AcWing 1014. 登山](./chapter1/acwing1014.go)
     - AcWing 482. 合唱队形
     - AcWing 1012. 友好城市
     - [AcWing 1016. 最大上升子序列和](./chapter1/acwing1016.go)
