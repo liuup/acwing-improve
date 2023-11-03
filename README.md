@@ -38,12 +38,49 @@ AcWing算法提高课的Golang实现
     - AcWing 734. 能量石
     - AcWing 487. 金明的预算方案
   - 状态机模型
+    - AcWing 1049. 大盗阿福
+    - AcWing 1057. 股票买卖 IV
+    - AcWing 1058. 股票买卖 V
+    - AcWing 1052. 设计密码
+    - AcWing 1053. 修复DNA
   - 状态压缩DP
+    - AcWing 1064. 小国王
+    - AcWing 327. 玉米田
+    - AcWing 292. 炮兵阵地
+    - AcWing 524. 愤怒的小鸟
+    - AcWing 529. 宝藏
   - 区间DP
+    - AcWing 1068. 环形石子合并
+    - AcWing 320. 能量项链
+    - AcWing 479. 加分二叉树
+    - AcWing 1069. 凸多边形的划分
+    - AcWing 321. 棋盘分割
   - 树形DP
+    - AcWing 1072. 树的最长路径
+    - AcWing 1073. 树的中心
+    - AcWing 1075. 数字转换
+    - AcWing 1074. 二叉苹果树
+    - AcWing 323. 战略游戏
+    - AcWing 1077. 皇宫看守
   - 数位DP
+    - AcWing 1081. 度的数量
+    - AcWing 1082. 数字游戏
+    - AcWing 1083. Windy数
+    - AcWing 1084. 数字游戏 II
+    - AcWing 1085. 不要62
+    - AcWing 1086. 恨7不成妻
   - 单调队列优化DP
+    - AcWing 135. 最大子序和
+    - AcWing 1087. 修剪草坪
+    - AcWing 1088. 旅行问题
+    - AcWing 1089. 烽火传递
+    - AcWing 1090. 绿色通道
+    - AcWing 1091. 理想的正方形
   - 斜率优化DP
+    - AcWing 300. 任务安排1
+    - AcWing 301. 任务安排2
+    - AcWing 302. 任务安排3
+    - AcWing 303. 运输小猫
 - 第二章 搜索
   - Flood Fill
     - [AcWing 1097. 池塘计数](./chapter2/acwing1097.go)
@@ -139,8 +176,20 @@ AcWing算法提高课的Golang实现
   - 博弈论
 - 第六章 基础算法
   - 位运算
+    - AcWing 90. 64位整数乘法
   - 递堆与递归
+    - AcWing 95. 费解的开关
+    - AcWing 97. 约数之和
+    - AcWing 98. 分形之城
   - 前缀和与差分
+    - AcWing 99. 激光炸弹
+    - AcWing 100. 增减序列
   - 二分
+    - AcWing 102. 最佳牛围栏
+    - AcWing 113. 特殊排序
   - 排序
+    - AcWing 105. 七夕祭
+    - AcWing 106. 动态中位数
+    - AcWing 107. 超快速排序
   - RMQ
+    - AcWing 1273. 天才的记忆
