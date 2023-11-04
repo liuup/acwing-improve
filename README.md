@@ -39,7 +39,7 @@ AcWing算法提高课的Golang实现
     - AcWing 487. 金明的预算方案
   - 状态机模型
     - [AcWing 1049. 大盗阿福](./chapter1/acwing1049.go)
-    - AcWing 1057. 股票买卖 IV
+    - [AcWing 1057. 股票买卖 IV](./chapter1/acwing1057.go)
     - AcWing 1058. 股票买卖 V
     - AcWing 1052. 设计密码
     - AcWing 1053. 修复DNA
