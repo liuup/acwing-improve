@@ -25,7 +25,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1023. 买书](./chapter1/acwing1023.go)
     - [AcWing 1021. 货币系统](./chapter1/acwing1021.go)
     - AcWing 532. 货币系统
-    - AcWing 6. 多重背包问题 III
+    - [AcWing 6. 多重背包问题 III](./chapter1/acwing6.go)
     - AcWing 1019. 庆功会
     - AcWing 7. 混合背包问题
     - AcWing 8. 二维费用的背包问题
