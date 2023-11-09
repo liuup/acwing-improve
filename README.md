@@ -28,7 +28,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 6. 多重背包问题 III](./chapter1/acwing6.go)
     - AcWing 1019. 庆功会
     - AcWing 7. 混合背包问题
-    - AcWing 8. 二维费用的背包问题
+    - [AcWing 8. 二维费用的背包问题](./chapter1/acwing8.go)
     - AcWing 1020. 潜水员
     - AcWing 1013. 机器分配
     - AcWing 426. 开心的金明
