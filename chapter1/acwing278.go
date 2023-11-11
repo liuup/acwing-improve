@@ -6,12 +6,13 @@ import (
 	"os"
 )
 
-func _debug() {
+func _solve() {
 	const eof = 0
 	out := bufio.NewWriter(os.Stdout)
 	defer out.Flush()
 	_i, _n, buf := 0, 0, make([]byte, 1<<12) // 4KB
-	rc := func() byte {                      // 读一个字符
+
+	rc := func() byte { // 读一个字符
 		if _i == _n {
 			_n, _ = os.Stdin.Read(buf)
 			if _n == 0 { // EOF
@@ -23,6 +24,7 @@ func _debug() {
 		_i++
 		return b
 	}
+
 	ri := func() (x int) { // 读一个整数，支持负数
 		neg := false
 		b := rc()
@@ -43,41 +45,23 @@ func _debug() {
 		}
 		return
 	}
-	rs := func() (s []byte) {
-		b := rc()
-		for ; '0' > b || b > '9'; b = rc() { // 'A' 'Z'
-		}
-		// for ; 'a' <= b && b <= 'z'; b = rc() { // 'A' 'Z'
-		// 	s = append(s, b)
-		// }
-		for ; '0' <= b && b <= '9'; b = rc() { // 'A' 'Z'
-			s = append(s, b)
-		}
-		return
-	}
-	_ = []interface{}{rc, ri, rs}
-
-	// acwing 1024
-	// 01
+	_ = []interface{}{ri}
 
 	n, m := ri(), ri()
-
-	nums := make([]int, n)
-	for i := range nums {
-		nums[i] = ri()
-	}
 
 	dp := make([]int, m+1)
 	dp[0] = 1
 
 	for i := 1; i <= n; i++ {
-		for j := m; j >= nums[i-1]; j-- {
-			dp[j] += dp[j-nums[i-1]]
+		a := ri()
+		for j := m; j >= a; j-- {
+			dp[j] += dp[j-a]
 		}
 	}
 	fmt.Fprintln(out, dp[m])
 }
 
 func main() {
-	_debug()
+	_solve()
+
 }
