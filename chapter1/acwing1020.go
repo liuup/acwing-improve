@@ -75,9 +75,7 @@ func _solve() {
 			}
 		}
 	}
-
-	// 当氧气和氮气容量分别为m n时，所达到的重量最小值
-	fmt.Println(dp[m][n]) // 最后输出的是这个
+	fmt.Fprintln(out, dp[m][n])
 }
 
 func max_i(a, b int) int {
