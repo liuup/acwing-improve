@@ -34,7 +34,7 @@ AcWing算法提高课的Golang实现
     - AcWing 426. 开心的金明
     - AcWing 10. 有依赖的背包问题
     - [AcWing 11. 背包问题求方案数](./chapter1/acwing11.go)
-    - AcWing 12. 背包问题求具体方案
+    - [AcWing 12. 背包问题求具体方案](./chapter1/acwing12.go)
     - AcWing 734. 能量石
     - AcWing 487. 金明的预算方案
   - 状态机模型
