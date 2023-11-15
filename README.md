@@ -36,7 +36,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 11. 背包问题求方案数](./chapter1/acwing11.go)
     - [AcWing 12. 背包问题求具体方案](./chapter1/acwing12.go)
     - AcWing 734. 能量石
-    - AcWing 487. 金明的预算方案
+    - [AcWing 487. 金明的预算方案](./chapter1/acwing487.go)
   - 状态机模型
     - [AcWing 1049. 大盗阿福](./chapter1/acwing1049.go)
     - [AcWing 1057. 股票买卖 IV](./chapter1/acwing1057.go)
