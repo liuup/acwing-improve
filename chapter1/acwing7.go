@@ -1,3 +1,4 @@
+// local runtime version go1.20.2
 package main
 
 import (
@@ -47,47 +48,35 @@ func _solve() {
 	}
 	_ = []interface{}{ri}
 
-	// acwing 7 混合背包
-
 	n, v := ri(), ri()
-
-	vs := make([]int, 100010)
-	ws := make([]int, 100010)
-
-	cnt := 1
-	for i := 1; i <= n; i++ {
-		a, b, s := ri(), ri(), ri()
-
-		k := 1
-		if s < 0 {
-			s = 1
-		} else if s == 0 {
-			s = v / a // 完全背包 最大容量为背包最大容量/物品体积 向下取整
-		}
-
-		for k <= s {
-			vs[cnt] = a * k
-			ws[cnt] = b * k
-			s -= k
-			k *= 2
-			cnt++
-		}
-
-		if s > 0 {
-			vs[cnt] = s * a
-			ws[cnt] = s * b
-			cnt++
-		}
-	}
 
 	dp := make([]int, v+1)
 
-	for i := 1; i <= cnt; i++ {
-		for j := v; j >= vs[i]; j-- {
-			dp[j] = max_i(dp[j], dp[j-vs[i]]+ws[i])
+	for i := 1; i <= n; i++ {
+		vs, ws, ss := ri(), ri(), ri()
+		if ss == 0 { // 完全背包
+			for j := vs; j <= v; j++ {
+				dp[j] = max_i(dp[j], dp[j-vs]+ws)
+			}
+		} else {
+			if ss == -1 { // 01
+				ss = 1
+			}
+
+			for k := 1; k <= ss; k *= 2 {
+				for j := v; j >= k*vs; j-- {
+					dp[j] = max_i(dp[j], dp[j-k*vs]+k*ws)
+				}
+				ss -= k
+			}
+
+			if ss > 0 {
+				for j := v; j >= ss*vs; j-- {
+					dp[j] = max_i(dp[j], dp[j-ss*vs]+ss*ws)
+				}
+			}
 		}
 	}
-
 	fmt.Fprintln(out, dp[v])
 }
 
