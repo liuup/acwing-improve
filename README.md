@@ -32,7 +32,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1020. 潜水员](./chapter1/acwing1020.go)
     - [AcWing 1013. 机器分配](./chapter1/acwing1013.go)
     - [AcWing 426. 开心的金明](./chapter1/acwing426.go)
-    - AcWing 10. 有依赖的背包问题
+    - [AcWing 10. 有依赖的背包问题](./chapter1/acwing10.go)
     - [AcWing 11. 背包问题求方案数](./chapter1/acwing11.go)
     - [AcWing 12. 背包问题求具体方案](./chapter1/acwing12.go)
     - AcWing 734. 能量石
