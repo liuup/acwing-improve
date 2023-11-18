@@ -44,7 +44,7 @@ AcWing算法提高课的Golang实现
     - AcWing 1052. 设计密码
     - AcWing 1053. 修复DNA
   - 状态压缩DP
-    - AcWing 1064. 小国王
+    - [AcWing 1064. 小国王](./chapter1/acwing1064.go)
     - AcWing 327. 玉米田
     - AcWing 292. 炮兵阵地
     - AcWing 524. 愤怒的小鸟
