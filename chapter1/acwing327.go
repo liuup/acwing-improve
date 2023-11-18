@@ -68,10 +68,10 @@ func _solve(_r io.Reader, _w io.Writer) {
 
 	// 把每一行转成二进制 方便后序处理
 	for i := 1; i <= m; i++ {
-		for j := 0; j < n; j++ {
+		for j := n - 1; j >= 0; j-- {
 			k := ri()
 			if k == 1 {
-				grid[i] |= (1 << (n - j - 1))
+				grid[i] |= (1 << j)
 			}
 		}
 	}
