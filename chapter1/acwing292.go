@@ -65,7 +65,7 @@ func _solve(_r io.Reader, _w io.Writer) {
 
 	n, m := ri(), ri()
 
-	// P=1 H=1
+	// P=1 H=0
 	grid := make([]int, n+10) // 稍微开大点
 	for i := 1; i <= n; i++ {
 		sb := rsn(m)
