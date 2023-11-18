@@ -96,8 +96,8 @@ func _solve(_r io.Reader, _w io.Writer) {
 		for a := 0; a < len(s); a++ { // 枚举第i行所有合法状态
 			// 枚举第i-1行合法状态
 			for b := 0; b < len(s); b++ {
-				// a种在肥沃土地上, a b同列不同时为1
-				if ((s[a] & grid[i]) == s[a]) && (s[a]&s[b] == 0) {
+				// a b种在肥沃土地上, a b同列不同时为1
+				if ((s[a] & grid[i]) == s[a]) && (s[b]&grid[i-1] == s[b]) && (s[a]&s[b] == 0) {
 					dp[i][a] = (dp[i][a] + dp[i-1][b]) % 10e8
 				}
 			}
