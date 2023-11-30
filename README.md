@@ -139,16 +139,60 @@ AcWing算法提高课的Golang实现
     - AcWing 1134. 最短路计数
     - AcWing 383. 观光
   - Floyd算法
+    - AcWing 1125. 牛的旅行
+    - AcWing 343. 排序
+    - AcWing 344. 观光之旅
+    - AcWing 345. 牛站
   - 最小生成树
+    - AcWing 1140. 最短网络
+    - AcWing 1141. 局域网
+    - AcWing 1142. 繁忙的都市
+    - AcWing 1143. 联络员
+    - AcWing 1144. 连接格点
   - 最小生成树的扩展应用
+    - AcWing 1146. 新的开始
+    - AcWing 1145. 北极通讯网络
+    - AcWing 346. 走廊泼水节
+    - AcWing 1148. 秘密的牛奶运输
   - 负环
+    - AcWing 904. 虫洞
+    - AcWing 361. 观光奶牛
+    - AcWing 1165. 单词环
   - 差分约束
+    - AcWing 1169. 糖果
+    - AcWing 362. 区间
+    - AcWing 1170. 排队布局
+    - AcWing 393. 雇佣收银员
   - 最近公共祖先
+    - AcWing 1172. 祖孙询问
+    - AcWing 1171. 距离
+    - AcWing 356. 次小生成树
+    - AcWing 352. 闇の連鎖
   - 有向图的强连通分量
+    - AcWing 1174. 受欢迎的牛
+    - AcWing 367. 学校网络
+    - AcWing 1175. 最大半连通子图
+    - AcWing 368. 银河
   - 无向图的双连通分量
+    - AcWing 395. 冗余路径
+    - AcWing 1183. 电力
+    - AcWing 396. 矿场搭建
   - 二分图
+    - AcWing 257. 关押罪犯
+    - AcWing 372. 棋盘覆盖
+    - AcWing 376. 机器任务
+    - AcWing 378. 骑士放置
+    - AcWing 379. 捉迷藏
   - 欧拉回路与欧拉路径
+    - AcWing 1123. 铲雪车
+    - AcWing 1184. 欧拉回路
+    - AcWing 1124. 骑马修栅栏
+    - AcWing 1185. 单词游戏
   - 拓扑排序
+    - AcWing 1191. 家谱树
+    - AcWing 1192. 奖金
+    - AcWing 164. 可达性统计
+    - AcWing 456. 车站分级
 - 第四章 高级数据结构
   - 并查集
     - [AcWing 1250. 格子游戏](./chapter4/acwing1250.go)
