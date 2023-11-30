@@ -189,7 +189,7 @@ AcWing算法提高课的Golang实现
     - AcWing 1124. 骑马修栅栏
     - AcWing 1185. 单词游戏
   - 拓扑排序
-    - AcWing 1191. 家谱树
+    - [AcWing 1191. 家谱树](./chapter3/acwing1191.go)
     - AcWing 1192. 奖金
     - AcWing 164. 可达性统计
     - AcWing 456. 车站分级
