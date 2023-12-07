@@ -109,7 +109,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1117. 单词接龙](./chapter2/acwing1117.cpp)
     - AcWing 1118. 分成互质组
   - DFS之剪枝与优化
-    - AcWing 165. 小猫爬山
+    - [AcWing 165. 小猫爬山](./chapter2/acwing165.cpp)
     - AcWing 166. 数独
     - AcWing 167. 木棒
     - AcWing 168. 生日蛋糕
