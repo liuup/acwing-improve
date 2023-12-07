@@ -114,7 +114,7 @@ AcWing算法提高课的Golang实现
     - AcWing 167. 木棒
     - AcWing 168. 生日蛋糕
   - 迭代加深
-    - AcWing 170. 加成序列
+    - [AcWing 170. 加成序列](./chapter2/acwing170.cpp)
   - 双向DFS
     - AcWing 171. 送礼物
   - IDA*
