@@ -118,7 +118,7 @@ AcWing算法提高课的Golang实现
   - 双向DFS
     - AcWing 171. 送礼物
   - IDA*
-    - AcWing 180. 排书
+    - [AcWing 180. 排书](./chapter2/acwing180.cpp)
     - AcWing 181. 回转游戏
 - 第三章 图论
   - 单源最短路的建图方式
