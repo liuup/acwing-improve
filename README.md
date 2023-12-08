@@ -99,7 +99,7 @@ AcWing算法提高课的Golang实现
   - 双向广搜
     - AcWing 190. 字串变换
   - A*
-    - AcWing 178. 第K短路
+    - [AcWing 178. 第K短路](./chapter2/acwing178.cpp)
     - [AcWing 179. 八数码](./chapter2/acwing179.cpp)
   - DFS之连通性模型
     - [AcWing 1112. 迷宫](./chapter2/acwing1112.go)
