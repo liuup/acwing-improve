@@ -129,7 +129,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 920. 最优乘车](./chapter3/acwing920.cpp)
     - AcWing 903. 昂贵的聘礼
   - 单源最短路的综合应用
-    - AcWing 1135. 新年好
+    - [AcWing 1135. 新年好](./chapter3/acwing1135.cpp)
     - AcWing 340. 通信线路
     - AcWing 342. 道路与航线
     - AcWing 341. 最优贸易
