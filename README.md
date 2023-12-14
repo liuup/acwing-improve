@@ -139,7 +139,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1134. 最短路计数](./chapter3/acwing1134.cpp)
     - AcWing 383. 观光
   - Floyd算法
-    - AcWing 1125. 牛的旅行
+    - [AcWing 1125. 牛的旅行](./chapter3/acwing1125.cpp)
     - AcWing 343. 排序
     - AcWing 344. 观光之旅
     - AcWing 345. 牛站
