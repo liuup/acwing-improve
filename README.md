@@ -136,7 +136,7 @@ AcWing算法提高课的Golang实现
   - 单源最短路的扩展应用
     - [AcWing 1137. 选择最佳线路](./chapter3/acwing1137.cpp)
     - AcWing 1131. 拯救大兵瑞恩
-    - AcWing 1134. 最短路计数
+    - [AcWing 1134. 最短路计数](./chapter3/acwing1134.cpp)
     - AcWing 383. 观光
   - Floyd算法
     - AcWing 1125. 牛的旅行
