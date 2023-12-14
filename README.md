@@ -134,7 +134,7 @@ AcWing算法提高课的Golang实现
     - AcWing 342. 道路与航线
     - AcWing 341. 最优贸易
   - 单源最短路的扩展应用
-    - AcWing 1137. 选择最佳线路
+    - [AcWing 1137. 选择最佳线路](./chapter3/acwing1137.cpp)
     - AcWing 1131. 拯救大兵瑞恩
     - AcWing 1134. 最短路计数
     - AcWing 383. 观光
