@@ -144,7 +144,7 @@ AcWing算法提高课的Golang实现
     - AcWing 344. 观光之旅
     - AcWing 345. 牛站
   - 最小生成树
-    - AcWing 1140. 最短网络
+    - [AcWing 1140. 最短网络](./chapter3/acwing1140.cpp)
     - AcWing 1141. 局域网
     - AcWing 1142. 繁忙的都市
     - AcWing 1143. 联络员
