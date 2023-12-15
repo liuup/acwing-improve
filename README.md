@@ -148,7 +148,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 1141. 局域网](./chapter3/acwing1141.cpp)
     - [AcWing 1142. 繁忙的都市](./chapter3/acwing1142.cpp)
     - [AcWing 1143. 联络员](./chapter3/acwing1143.cpp)
-    - AcWing 1144. 连接格点
+    - [AcWing 1144. 连接格点](./chapter3/acwing1144.cpp)
   - 最小生成树的扩展应用
     - AcWing 1146. 新的开始
     - AcWing 1145. 北极通讯网络
