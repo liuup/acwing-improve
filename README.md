@@ -184,7 +184,7 @@ AcWing算法提高课的Golang实现
     - AcWing 378. 骑士放置
     - AcWing 379. 捉迷藏
   - 欧拉回路与欧拉路径
-    - AcWing 1123. 铲雪车
+    - [AcWing 1123. 铲雪车](./chapter3/acwing1123.cpp)
     - AcWing 1184. 欧拉回路
     - AcWing 1124. 骑马修栅栏
     - AcWing 1185. 单词游戏
