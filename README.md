@@ -155,7 +155,7 @@ AcWing算法提高课的Golang实现
     - [AcWing 346. 走廊泼水节](./chapter3/acwing346.cpp)
     - AcWing 1148. 秘密的牛奶运输
   - 负环
-    - AcWing 904. 虫洞
+    - [AcWing 904. 虫洞](./chapter3/acwing904.cpp)
     - AcWing 361. 观光奶牛
     - AcWing 1165. 单词环
   - 差分约束
