@@ -197,7 +197,7 @@ AcWing算法提高课的Golang实现
   - 并查集
     - [AcWing 1250. 格子游戏](./chapter4/acwing1250.go)
     - [AcWing 1252. 搭配购买](./chapter4/acwing1252.go)
-    - AcWing 237. 程序自动分析
+    - [AcWing 237. 程序自动分析](./chapter4/acwing237.cpp)
     - AcWing 239. 奇偶游戏
     - AcWing 238. 银河英雄传说
   - 树状数组
