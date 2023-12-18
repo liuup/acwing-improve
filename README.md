@@ -152,7 +152,7 @@ AcWing算法提高课的Golang实现
   - 最小生成树的扩展应用
     - AcWing 1146. 新的开始
     - AcWing 1145. 北极通讯网络
-    - AcWing 346. 走廊泼水节
+    - [AcWing 346. 走廊泼水节](./chapter3/acwing346.cpp)
     - AcWing 1148. 秘密的牛奶运输
   - 负环
     - AcWing 904. 虫洞
