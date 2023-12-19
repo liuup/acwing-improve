@@ -201,10 +201,26 @@ AcWing算法提高课的Golang实现
     - AcWing 239. 奇偶游戏
     - AcWing 238. 银河英雄传说
   - 树状数组
+    - AcWing 241. 楼兰图腾
+    - AcWing 242. 一个简单的整数问题
+    - AcWing 243. 一个简单的整数问题2
+    - AcWing 244. 谜一样的牛
   - 线段树
+    - AcWing 1275. 最大数
+    - AcWing 245. 你能回答这些问题吗
+    - AcWing 246. 区间最大公约数
+    - AcWing 243. 一个简单的整数问题2
+    - AcWing 247. 亚特兰蒂斯
+    - AcWing 1277. 维护序列
   - 可持久化数据结构
+    - AcWing 256. 最大异或和
+    - AcWing 255. 第K小数
   - 平衡树
+    - AcWing 253. 普通平衡树
+    - AcWing 265. 营业额统计
   - AC自动机
+    - AcWing 1282. 搜索关键词
+    - AcWing 1285. 单词
 - 第五章 数学知识
   - 筛质数
   - 分解质因数
