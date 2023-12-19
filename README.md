@@ -1,5 +1,5 @@
 # acwing-improve
-AcWing算法提高课的Golang实现
+AcWing算法提高课的C++/Golang实现
 
 ## 目录
 - 第一章 动态规划
