@@ -202,7 +202,7 @@ AcWing算法提高课的Golang实现
     - AcWing 238. 银河英雄传说
   - 树状数组
     - AcWing 241. 楼兰图腾
-    - AcWing 242. 一个简单的整数问题
+    - [AcWing 242. 一个简单的整数问题](./chapter4/acwing242.cpp)
     - AcWing 243. 一个简单的整数问题2
     - AcWing 244. 谜一样的牛
   - 线段树
