@@ -242,7 +242,7 @@ AcWing算法提高课的C++/Golang实现
     - AcWing 97. 约数之和
     - AcWing 98. 分形之城
   - 前缀和与差分
-    - AcWing 99. 激光炸弹
+    - [AcWing 99. 激光炸弹](./chapter6/acwing99.cpp)
     - AcWing 100. 增减序列
   - 二分
     - AcWing 102. 最佳牛围栏
