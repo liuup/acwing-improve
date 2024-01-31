@@ -203,7 +203,7 @@ AcWing算法提高课的C++/Golang实现
   - 树状数组
     - AcWing 241. 楼兰图腾
     - [AcWing 242. 一个简单的整数问题](./chapter4/acwing242.cpp)
-    - AcWing 243. 一个简单的整数问题2
+    - [AcWing 243. 一个简单的整数问题2](./chapter4/acwing243.cpp)
     - AcWing 244. 谜一样的牛
   - 线段树
     - AcWing 1275. 最大数
