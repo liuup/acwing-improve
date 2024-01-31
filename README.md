@@ -209,7 +209,7 @@ AcWing算法提高课的C++/Golang实现
     - AcWing 1275. 最大数
     - AcWing 245. 你能回答这些问题吗
     - AcWing 246. 区间最大公约数
-    - AcWing 243. 一个简单的整数问题2
+    - [AcWing 243. 一个简单的整数问题2](./chapter4/acwing243.cpp)
     - AcWing 247. 亚特兰蒂斯
     - AcWing 1277. 维护序列
   - 可持久化数据结构
